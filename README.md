@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MeroDhan- Stock Market Trading Application for Nepal
 
-## Getting Started
+Welcome to **MeroDhan (मेरो धन)**, a Next.js-based stock market trading application tailored for the Nepalese stock market. MeroDhan empowers users with a seamless and efficient trading experience, combining real-time data analysis, portfolio management, and trading tools in one platform.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Key Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Real-Time Market Data**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   - Live stock price updates from the Nepal Stock Exchange (NEPSE).
+   - Real-time charts and historical data analysis.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Portfolio Management**
 
-## Learn More
+   - Track and manage your stock investments.
+   - Analyze portfolio performance with detailed metrics and visualizations.
 
-To learn more about Next.js, take a look at the following resources:
+3. **User-Friendly Trading Interface**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   - Simple and intuitive trading tools for buying and selling stocks.
+   - Customizable watchlists for monitoring favorite stocks.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Secure Authentication**
 
-## Deploy on Vercel
+   - Google OAuth for seamless and secure user login.
+   - Encrypted data storage for user information.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. **Insights & Alerts**
+   - Personalized stock insights and news.
+   - Notifications for price movements, order statuses, and important events.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Tech Stack
+
+- **Frontend**: Next.js, TypeScript, React.js
+- **Backend**: Node.js, Next.js API routes
+- **Database**: MongoDB / PostgreSQL (planned for user and transaction data)
+- **Authentication**: Google OAuth and NextAuth.js
+- **Deployment**: Vercel / AWS / Render
+- **Storage**: Amazon S3 for file uploads and data storage
+
+---
+
+## Installation
+
+Follow these steps to set up the MeroDhan application locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/subigya-js/mero-dhan.git
+   cd mero-dhan
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser to see the app.
+
+---
+
+## Deployment
+
+1. Build the application:
+
+   ```bash
+   npm run build
+   ```
+
+2. Start the server:
+
+   ```bash
+   npm start
+   ```
+
+3. Deploy using Vercel:
+   - Install Vercel CLI: `npm install -g vercel`
+   - Deploy: `vercel`
+
+---
+
+## Contribution Guidelines
+
+We welcome contributions to improve MeroDhan! Follow these steps:
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`.
+3. Commit your changes: `git commit -m 'Add feature name'`.
+4. Push to your branch: `git push origin feature-name`.
+5. Create a pull request.
+
+---
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## Acknowledgements
+
+- Data sourced from Nepal Stock Exchange (NEPSE).
+- Open-source libraries and tools used in the project.
+
+---
+
+## Contact
+
+For support or inquiries, contact the development team at: **developer.subigya@gmail.com**
