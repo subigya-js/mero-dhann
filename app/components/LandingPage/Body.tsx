@@ -1,6 +1,8 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
+import market from "../../assets/market.png";
 import LoginModal from "../Modals/LoginModals";
 
 const Body = () => {
@@ -11,7 +13,7 @@ const Body = () => {
   };
 
   return (
-    <div className="p-4 sm:p-6 md:p-8 lg:p-10 mt-4 sm:mt-6 md:mt-8 min-h-[75vh]">
+    <div className="p-4 sm:p-6 md:p-8 lg:p-10 mt-4 sm:mt-6 md:mt-8 min-h-[75vh] flex flex-col gap-12">
       <div className="flex flex-col items-center gap-3 sm:gap-4 md:gap-5">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center">
           Your money deserves <br className="hidden sm:inline" />
@@ -31,6 +33,10 @@ const Body = () => {
       </div>
 
       <LoginModal isOpen={showModal} onClose={toggleModal} />
+
+      <div className="flex justify-center items-center">
+        <Image src={market} alt="Market image" height={700} width={1000} />
+      </div>
     </div>
   );
 };
