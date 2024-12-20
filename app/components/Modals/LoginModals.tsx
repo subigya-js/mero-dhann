@@ -1,4 +1,3 @@
-import React from "react";
 import { IoMdClose } from "react-icons/io";
 import google from "../../assets/google.png";
 import Image from "next/image";
