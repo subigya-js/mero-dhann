@@ -11,7 +11,7 @@ const Body = () => {
   };
 
   return (
-    <div className="p-4 sm:p-6 md:p-8 lg:p-10 mt-4 sm:mt-6 md:mt-8">
+    <div className="p-4 sm:p-6 md:p-8 lg:p-10 mt-4 sm:mt-6 md:mt-8 min-h-[75vh]">
       <div className="flex flex-col items-center gap-3 sm:gap-4 md:gap-5">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-center">
           Your money deserves <br className="hidden sm:inline" />

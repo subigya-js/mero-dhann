@@ -19,8 +19,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MeroDhan",
-  description: "Mero Dhan (मेरो धन) refers to My Money, which is a Stock Market Trading Application.",
+  title: "MeroDhann- Number 1 Stock Broker in Nepal",
+  description:
+    "Mero Dhann (मेरो धन) refers to My Money, which is a Stock Market Trading Application. We are the number one stock/share broker in Nepal. Officially regestired in NEPSE (Nepal Stock Exchange). NEPSE Broker, Nepal Stock Exchange Broker",
 };
 
 export default function RootLayout({

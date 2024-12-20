@@ -3,8 +3,8 @@
 import Image from "next/image";
 import { useState } from "react";
 import { FaBars, FaSearch, FaTimes } from "react-icons/fa";
-import logo from "../assets/logo.png";
-import LoginModal from "./Modals/LoginModals";
+import logo from "../../assets/logo.png";
+import LoginModal from "../Modals/LoginModals";
 
 const Navbar = () => {
   const [showModal, setShowModal] = useState(false);
@@ -23,7 +23,7 @@ const Navbar = () => {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-end">
           <Image src={logo} alt="MeroDhan" width={40} height={40} className="md:w-[50px] md:h-[50px]" />
-          <span className="text-red-500 font-semibold text-xl md:text-2xl ml-1">eroDhan</span>
+          <span className="text-red-500 font-semibold text-xl md:text-2xl ml-1">eroDhann</span>
         </div>
 
         {/* Desktop Menu */}
