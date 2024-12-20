@@ -1,6 +1,6 @@
-# MeroDhan- Stock Market Trading Application for Nepal
+# MeroDhann- Stock Market Trading Application for Nepal
 
-Welcome to **MeroDhan (मेरो धन)**, a Next.js-based stock market trading application tailored for the Nepalese stock market. MeroDhan empowers users with a seamless and efficient trading experience, combining real-time data analysis, portfolio management, and trading tools in one platform.
+Welcome to **MeroDhann (मेरो धन)**, a Next.js-based stock market trading application tailored for the Nepalese stock market. MeroDhann empowers users with a seamless and efficient trading experience, combining real-time data analysis, portfolio management, and trading tools in one platform.
 
 ---
 
@@ -45,7 +45,7 @@ Welcome to **MeroDhan (मेरो धन)**, a Next.js-based stock market trad
 
 ## Installation
 
-Follow these steps to set up the MeroDhan application locally:
+Follow these steps to set up the MeroDhann application locally:
 
 1. Clone the repository:
 
@@ -90,7 +90,7 @@ Follow these steps to set up the MeroDhan application locally:
 
 ## Contribution Guidelines
 
-We welcome contributions to improve MeroDhan! Follow these steps:
+We welcome contributions to improve MeroDhann! Follow these steps:
 
 1. Fork the repository.
 2. Create a new branch: `git checkout -b feature-name`.
