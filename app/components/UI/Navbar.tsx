@@ -5,6 +5,7 @@ import { useState } from "react";
 import { FaBars, FaSearch, FaTimes } from "react-icons/fa";
 import logo from "../../assets/logo.png";
 import LoginModal from "../Modals/LoginModals";
+import Button from "./button";
 
 const Navbar = () => {
   const [showModal, setShowModal] = useState(false);
@@ -41,12 +42,9 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:block">
-          <button
-            className="bg-green-400 hover:bg-green-500 text-white px-6 py-3 rounded-md text-[13px] font-semibold transition duration-150 ease-in-out"
-            onClick={toggleModal}
-          >
+          <Button onClick={toggleModal}>
             Login/Register
-          </button>
+          </Button>
         </div>
 
         {/* Mobile Menu Button */}
@@ -71,12 +69,9 @@ const Navbar = () => {
                 className="w-full pl-10 py-2 border text-sm border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-gray-200 focus:border-transparent"
               />
             </div>
-            <button
-              className="bg-green-400 hover:bg-green-500 text-white px-6 py-3 rounded-md text-[13px] font-semibold transition duration-150 ease-in-out"
-              onClick={toggleModal}
-            >
+            <Button onClick={toggleModal}>
               Login/Register
-            </button>
+            </Button>
           </div>
         </div>
       )}

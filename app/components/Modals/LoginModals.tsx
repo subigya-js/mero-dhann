@@ -1,6 +1,7 @@
+import Image from "next/image";
 import { IoMdClose } from "react-icons/io";
 import google from "../../assets/google.png";
-import Image from "next/image";
+import Button from "../UI/button";
 
 interface LoginModalProps {
   isOpen: boolean;
@@ -44,9 +45,12 @@ const LoginModal: React.FC<LoginModalProps> = ({ isOpen, onClose }) => {
               className="w-full sm:w-[80%] md:w-[70%] border-b border-gray-300 rounded-md py-2 px-4 mb-2 outline-none text-gray-950"
             />
 
-            <button className="w-full sm:w-[80%] md:w-[70%] mt-5 bg-green-400 hover:bg-green-500 text-white px-6 py-3 rounded-md text-[13px] font-semibold transition duration-150 ease-in-out">
+            <Button
+              onClick={() => {/* Add continue logic here */}}
+              className="w-full sm:w-[80%] md:w-[70%] mt-5"
+            >
               Continue
-            </button>
+            </Button>
 
             <p className="text-xs text-gray-300 text-center mt-4 px-4">
               By proceeding, I agree to{" "}

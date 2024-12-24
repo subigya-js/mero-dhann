@@ -6,6 +6,7 @@ import market from "../../assets/market.png";
 import LoginModal from "../Modals/LoginModals";
 import leftRibbon from "../../assets/ribbon-left.png";
 import rightRibbon from "../../assets/ribbon-right.png";
+import Button from "../UI/button";
 
 const Body = () => {
   const [showModal, setShowModal] = useState(false);
@@ -26,12 +27,12 @@ const Body = () => {
           Built for a prosperous Nepal.
         </p>
 
-        <button
-          className="bg-green-400 hover:bg-green-500 text-white px-6 py-3 rounded-md text-sm sm:text-base md:text-lg font-semibold transition duration-150 ease-in-out w-[50%] sm:w-auto sm:min-w-[200px]"
+        <Button
           onClick={toggleModal}
+          className="text-sm sm:text-base md:text-lg w-[50%] sm:w-auto sm:min-w-[200px]"
         >
           Get Started
-        </button>
+        </Button>
       </div>
 
       <LoginModal isOpen={showModal} onClose={toggleModal} />
