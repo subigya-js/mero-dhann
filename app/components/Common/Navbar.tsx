@@ -82,7 +82,6 @@ const Navbar = () => {
           </div>
         </div>
       )}
-
       <LoginModal isOpen={showModal} onClose={toggleModal} />
     </nav>
   );
