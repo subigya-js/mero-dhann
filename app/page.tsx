@@ -1,6 +1,6 @@
+import Footer from "./components/Common/Footer";
 import Body from "./components/LandingPage/Body";
-import Footer from "./components/UI/Footer";
-import Navbar from "./components/UI/Navbar";
+import Navbar from "./components/ui/Navbar";
 
 export default function Home() {
   return (

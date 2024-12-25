@@ -3,10 +3,10 @@
 import Image from "next/image";
 import { useState } from "react";
 import market from "../../assets/market.png";
-import LoginModal from "../Modals/LoginModals";
 import leftRibbon from "../../assets/ribbon-left.png";
 import rightRibbon from "../../assets/ribbon-right.png";
-import Button from "../UI/button";
+import LoginModal from "../Modals/LoginModals";
+import Button from "../ui/button";
 
 const Body = () => {
   const [showModal, setShowModal] = useState(false);

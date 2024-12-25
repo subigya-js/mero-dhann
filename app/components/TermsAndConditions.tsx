@@ -1,5 +1,4 @@
-import React from "react";
-import Navbar from "./UI/Navbar";
+import Navbar from "./ui/Navbar";
 
 const TermsAndConditions = () => {
   return (
