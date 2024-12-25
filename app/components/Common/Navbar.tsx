@@ -5,7 +5,7 @@ import { useState } from "react";
 import { FaBars, FaSearch, FaTimes } from "react-icons/fa";
 import logo from "../../assets/logo.png";
 import LoginModal from "../Modals/LoginModals";
-import Button from "./button";
+import Button from "../ui/button";
 
 const Navbar = () => {
   const [showModal, setShowModal] = useState(false);
@@ -23,8 +23,16 @@ const Navbar = () => {
     <nav className="text-black py-4 px-4 md:px-8 lg:px-24 shadow-sm">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-end">
-          <Image src={logo} alt="MeroDhan" width={40} height={40} className="md:w-[50px] md:h-[50px]" />
-          <span className="text-red-500 font-semibold text-xl md:text-2xl ml-1">eroDhann</span>
+          <Image
+            src={logo}
+            alt="MeroDhan"
+            width={40}
+            height={40}
+            className="md:w-[50px] md:h-[50px]"
+          />
+          <span className="text-red-500 font-semibold text-xl md:text-2xl ml-1">
+            eroDhann
+          </span>
         </div>
 
         {/* Desktop Menu */}
@@ -42,14 +50,15 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:block">
-          <Button onClick={toggleModal}>
-            Login/Register
-          </Button>
+          <Button onClick={toggleModal}>Login/Register</Button>
         </div>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden">
-          <button onClick={toggleMenu} className="text-white focus:outline-none">
+          <button
+            onClick={toggleMenu}
+            className="text-white focus:outline-none"
+          >
             {isMenuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
           </button>
         </div>
@@ -69,9 +78,7 @@ const Navbar = () => {
                 className="w-full pl-10 py-2 border text-sm border-gray-300 rounded-lg focus:outline-none focus:ring-1 focus:ring-gray-200 focus:border-transparent"
               />
             </div>
-            <Button onClick={toggleModal}>
-              Login/Register
-            </Button>
+            <Button onClick={toggleModal}>Login/Register</Button>
           </div>
         </div>
       )}

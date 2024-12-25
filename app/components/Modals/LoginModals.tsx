@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { IoMdClose } from "react-icons/io";
 import google from "../../assets/google.png";
-import Button from "../UI/button";
+import Button from "../ui/button";
 
 interface LoginModalProps {
   isOpen: boolean;
